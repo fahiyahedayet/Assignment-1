@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
     box-sizing: border-box;
 }
 .nav-middle ul {
@@ -17,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80 px;
+    padding: 20px 60px;
 }
 .common-btn{
     padding: 12px 24px;
@@ -28,4 +29,34 @@
     background-color: #1D4ED8;
     color: white;
     cursor: pointer;
+}
+
+.hero-parent {
+    background-image: url(./assets/banner.jpg);
+    background-size: cover ;
+    height: 786px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.hero-content h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    margin-top: -150px; 
+
+}
+.hero-content p{
+    font-size: 22px;
+    color: #ffffffe6;
+    max-width: 700px;
+    margin: 20px auto;
+}
+.h-italic{
+    font-style: italic;
+}
+.hero-content .common-btn{
+    margin-top: 150px;
 }

@@ -24,11 +24,23 @@
     padding: 12px 24px;
     font-weight: bold;
     font-size: 16px;
-    border: none;
+    border: 1px solid #1D4ED8;
     border-radius: 10px;
     background-color: #1D4ED8;
     color: white;
     cursor: pointer;
+}
+
+.outline-btn{
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #1D4ED8;
+    cursor: pointer;
+
 }
 
 .hero-parent {

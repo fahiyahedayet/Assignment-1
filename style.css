@@ -125,14 +125,14 @@
     margin: 40px auto
 }
 
-.pricing-parent h2{
+.pricing-parent h2, .highlight-parent h2{
     text-align: center;
     font-size: 48px;
     font-weight: bold;
     color: #0D1B2A;
 }
 
-.pricing-parent-text{
+.pricing-parent-text, .highlight-text{
     text-align: center;
     color: #575757;
     margin-top: 10px;
@@ -214,6 +214,37 @@
 .pricing-card li::marker{
     color: #2563EB;
 }
+
+.highlight-parent{
+    max-width:1200px;
+    margin:80px auto;
+    text-align:center;
+}
+
+.highlight-grid{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.highlight-card{
+    flex:1;
+    min-width: 250px;
+    border:1px solid #E5E7EB;
+    border-radius:12px;
+    padding:35px 20px;
+}
+.highlight-card h3{
+    font-size:42px;
+    color:#2563EB;
+    margin-bottom:10px;
+}
+
+.highlight-card p{
+    color:#575757;
+}
+
+
 
 .footer-parent{
     background-color:#0D1B2A;

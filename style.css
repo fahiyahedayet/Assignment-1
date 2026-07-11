@@ -124,14 +124,14 @@
     margin: 40px auto
 }
 
-.pricing-parent h2, .highlight-parent h2, .newsletter-parent h2{
+.pricing-parent h2, .highlight-parent h2, .newsletter-parent h2, .schedule-parent h2{
     text-align: center;
     font-size: 48px;
     font-weight: bold;
     color: #0D1B2A;
 }
 
-.pricing-parent-text, .highlight-text, .newsletter-text{
+.pricing-parent-text, .highlight-text, .newsletter-text , .schedule-text{
     text-align: center;
     color: #575757;
     margin-top: 10px;
@@ -178,7 +178,7 @@
     padding-left: 18px;
 
 }
-.pricing-card li{
+.pricing-card li, .schedule-card li{
     margin-bottom: 12px;
     color: #333333;
     font-size: 14px;
@@ -210,8 +210,47 @@
 .pro-card li::marker {
     color: #60A5FA;
 }
-.pricing-card li::marker{
+.pricing-card li::marker , .schedule-card li::marker{
     color: #2563EB;
+}
+
+.schedule-parent{
+    max-width: 1200px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+
+.schedule-grid{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.schedule-card{
+    flex: 1;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+}
+
+.schedule-card h3{
+    color: #2563EB;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.schedule-card ul{
+    padding-left: 20px;
+}
+
+.schedule-day{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
 }
 
 .highlight-parent{

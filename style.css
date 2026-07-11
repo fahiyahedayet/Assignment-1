@@ -4,6 +4,9 @@
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
 }
+
+/* navbar */
+
 .nav-middle ul {
     display: flex;
     gap: 25px;
@@ -20,6 +23,9 @@
     align-items: center;
     padding: 20px 60px;
 }
+
+/* button */
+
 .common-btn{
     padding: 12px 24px;
     font-weight: bold;
@@ -42,6 +48,8 @@
     cursor: pointer;
 
 }
+
+/* hero section */
 
 .hero-parent {
     background-image: url(./assets/banner.jpg);
@@ -72,8 +80,11 @@
 
 }
 
+
+/* speaker grid */
+
 .speaker-parent {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -81,7 +92,7 @@
 .speaker-parent h2{
     text-align: center;
     font-size: 42px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .speaker-grid {
     display: grid;
@@ -92,9 +103,10 @@
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     overflow: hidden;
+    
 }
 .speaker-content img{
-    height: 240px;
+    height: auto;
     width: 100%;
     object-fit: cover;
 }
@@ -118,6 +130,8 @@
     color: #575757;
     font-size: 14px;
 }
+
+/* pricing card */
 
 .pricing-parent {
     max-width: 1200px;
@@ -214,6 +228,8 @@
     color: #2563EB;
 }
 
+/* schedule section */
+
 .schedule-parent{
     max-width: 1200px;
     margin: 80px auto;
@@ -253,6 +269,8 @@
     margin-bottom: 8px;
 }
 
+/* highlights */
+
 .highlight-parent{
     max-width:1200px;
     margin:80px auto;
@@ -282,6 +300,8 @@
     color:#575757;
 }
 
+
+/* newsletter */
 .newsletter-parent{
     background:#F8FAFC;
     text-align:center;
@@ -297,7 +317,7 @@
 
 .newsletter-form input{
     height: 50px;
-    /* width:400px; */
+    
     padding:0px 18px;
     border:1px solid #D1D5DB;
     border-radius:10px;
@@ -313,6 +333,8 @@
 .newsletter-form button{
     width: 200px;
 }
+
+/* footer */
 
 .footer-parent{
     background-color:#0D1B2A;
@@ -336,12 +358,8 @@
     color:white;
     font-size:20px;
     text-decoration:none;
-    transition:.3s;
 }
 
-.social-icons a:hover{
-    color:#60A5FA;
-}
 
 .footer-parent hr{
     border:none;
@@ -372,7 +390,5 @@
     font-size: 14px;
 }
 
-.footer-links a:hover{
-    color: white;
-}
+
 

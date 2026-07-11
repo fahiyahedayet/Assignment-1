@@ -23,7 +23,7 @@
 .common-btn{
     padding: 12px 24px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px solid #1D4ED8;
     border-radius: 10px;
     background-color: #1D4ED8;
@@ -34,7 +34,7 @@
 .outline-btn{
     padding: 12px 24px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px solid #1D4ED8;
     border-radius: 10px;
     background-color: white;
@@ -122,7 +122,7 @@
 
 .pricing-parent {
     max-width: 1200px;
-    margin: 80px auto;
+    margin: 40px auto
 }
 
 .pricing-parent h2{
@@ -174,5 +174,43 @@
     border-top: 1px solid #E5E7EB;
     margin: 20px 0;
 }
+.pricing-card ul{
+    list-style: disc;
+    padding-left: 18px;
 
+}
+.pricing-card li{
+    margin-bottom: 12px;
+    color: #333333;
+    font-size: 14px;
+}
 
+.pricing-card .outline-btn, .common-btn{
+    width: 100%;
+    margin-top: 12px;
+}
+
+.pro-card {
+    background:#0F172A;
+}
+.pro-card .price{
+    color: white;
+}
+.pro-card hr{
+    border-top: 1px solid #FFFFFF1A;
+}
+.pro-card .price-text {
+    color: rgb(255 255 255 / 50%);
+}
+.pro-card .plan-name {
+    color: #93C5FD;
+}
+.pro-card li {
+    color: rgb(255 255 255 / 80%);
+}
+.pro-card li::marker {
+    color: #60A5FA;
+}
+.pricing-card li::marker{
+    color: #2563EB;
+}

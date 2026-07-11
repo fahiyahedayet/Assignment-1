@@ -66,11 +66,10 @@
     max-width: 700px;
     margin: 20px auto;
 }
-.h-italic{
-    font-style: italic;
-}
+
 .hero-content .common-btn{
     margin-top: 150px;
+
 }
 
 .speaker-parent {
@@ -125,14 +124,14 @@
     margin: 40px auto
 }
 
-.pricing-parent h2, .highlight-parent h2{
+.pricing-parent h2, .highlight-parent h2, .newsletter-parent h2{
     text-align: center;
     font-size: 48px;
     font-weight: bold;
     color: #0D1B2A;
 }
 
-.pricing-parent-text, .highlight-text{
+.pricing-parent-text, .highlight-text, .newsletter-text{
     text-align: center;
     color: #575757;
     margin-top: 10px;
@@ -185,7 +184,7 @@
     font-size: 14px;
 }
 
-.pricing-card .outline-btn, .common-btn{
+.pricing-card .outline-btn, .pricing-card .common-btn{
     width: 100%;
     margin-top: 12px;
 }
@@ -244,7 +243,37 @@
     color:#575757;
 }
 
+.newsletter-parent{
+    background:#F8FAFC;
+    text-align:center;
+    padding:80px 20px;
+    margin-top:80px;
+}
 
+.newsletter-form{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.newsletter-form input{
+    height: 50px;
+    /* width:400px; */
+    padding:0px 18px;
+    border:1px solid #D1D5DB;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.newsletter-form .common-btn{
+    height:50px;
+    width:auto;
+    margin-top:0;
+}
+
+.newsletter-form button{
+    width: 200px;
+}
 
 .footer-parent{
     background-color:#0D1B2A;

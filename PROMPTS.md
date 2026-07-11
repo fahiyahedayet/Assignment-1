@@ -1,0 +1,1 @@
+I have made a dev conference web landing page which includes section like meet the speaker grid, pricing section of different plan cards. What more can i add before the footer with basic html & css? 
